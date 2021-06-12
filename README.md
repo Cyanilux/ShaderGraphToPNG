@@ -32,4 +32,3 @@ If there is any errors (in any Unity/SG version) or problems with the final imag
 - Cyanilux (https://twitter.com/Cyanilux)
 	- Processing region. Fixed position/scaling & stitching issues with the DoShaderGraphToPng function
 	- Replaced EditorWindow with "Add Tool to Shader Graph Menu" region which adds "Graph To PNG" to the right-click menu in SG.
-	- Cleaned up code in all regions
