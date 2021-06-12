@@ -193,6 +193,7 @@ public class GraphToPng {
 		string path = GetUniquePathName(name);
 		System.IO.File.WriteAllBytes(path, bytes);
 		Debug.Log(string.Format("Saved graph at {0}", path));
+		AssetDatabase.Refresh();
 		return path;
 	}
 
