@@ -1,6 +1,6 @@
 {
 	"name": "com.cyanilux.shadergraph-to-png",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"displayName": "Shader Graph To PNG",
 	"description": "Screenshots a Shader Graph in multiple sections, stitches them together and saves the result as a PNG. To use, right-click in a Shader Graph and select 'Graph To PNG'",
    "keywords": [

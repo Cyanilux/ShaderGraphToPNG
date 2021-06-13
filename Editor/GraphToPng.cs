@@ -84,7 +84,7 @@ public class GraphToPng {
 
 		// This will make sure the current focused window always has the manipulator
 		EditorWindow focusedWindow = EditorWindow.focusedWindow;
-		if (focusedWindow != prev) {
+		if (focusedWindow !=  null && focusedWindow != prev) {
 			if (focusedWindow.GetType().ToString().Contains("ShaderGraph")) {
 				// is Shader Graph
 				if (prevGraphView != null) {
